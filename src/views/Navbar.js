@@ -77,11 +77,11 @@ function Navbar() {
                     </a>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/quiz" onClick={closeMenu}>
                       Take a Quiz
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link className="nav-link" to="/login" onClick={closeMenu}>
@@ -95,11 +95,11 @@ function Navbar() {
                     
                   </li>
                   
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/notice" onClick={closeMenu}>
                       Notice
                     </Link>
-                  </li>
+                  </li> */}
 
                 
                 </>
@@ -107,31 +107,31 @@ function Navbar() {
 
               {token !== null && (
                 <>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/dashboard" onClick={closeMenu}>
                       Dashboard
                     </Link>
-                  </li>
-                  <li className="nav-item">
+                  </li> */}
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/quiz" onClick={closeMenu}>
                       Take a Quiz
                     </Link>
-                  </li>
-                  <li className="nav-item">
+                  </li> */}
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/rquiz" onClick={closeMenu}>
                       Take a RQuiz
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link className="nav-link" to="/chapterlist" onClick={closeMenu}>
                       Chapter Wise
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link" to="/sallybus" onClick={closeMenu}>
                       Syllabus
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                   <button className="nav-link" onClick={() => {
                                                       logoutUser();

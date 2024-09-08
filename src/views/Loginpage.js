@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import AuthContext from '../context/AuthContext'
 import ForgotPassword from './ForgetPasswordPage'
 import Modal from 'react-modal';
+import sin from './images/sin.png'
 
 
 
@@ -34,7 +35,7 @@ function Loginpage() {
   return (
     <div>
       <>
-  <section className="vh-100" style={{ backgroundColor: "#0d98ba" }}>
+  <section className="vh-100" style={{ backgroundColor: "#7cb474" }}>
     <div className="container py-5 h-100">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col col-xl-10">
@@ -42,7 +43,7 @@ function Loginpage() {
             <div className="row g-0">
               <div className="col-md-6 col-lg-5 d-none d-md-block">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                  src= {sin}
                   alt="login form"
                   className="img-fluid"
                   style={{ borderRadius: "1rem 0 0 1rem" }}
@@ -137,7 +138,7 @@ function Loginpage() {
   <footer className="bg-light text-center text-lg-start">
     <div
       className="text-center p-3"
-      style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+      style={{ backgroundColor: '#7cb474' }}
     >
       © Geoneer Geospatial Services
       <a className="text-dark" href="https://geoneer.com.np/">

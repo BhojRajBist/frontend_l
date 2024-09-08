@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
+import reg from './images/reg.png'
 
 function Registerpage() {
   const [email, setEmail] = useState('');
@@ -17,7 +18,7 @@ function Registerpage() {
 
   return (
     <div>
-      <section className="vh-100" style={{ backgroundColor: '#9A616D' }}>
+      <section className="vh-100" style={{ backgroundColor: '#147d04' }}>
         <div className="container py-5 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-xl-10">
@@ -25,10 +26,14 @@ function Registerpage() {
                 <div className="row g-0">
                   <div className="col-md-6 col-lg-5 d-none d-md-block">
                     <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                      src= {reg}
                       alt="login form"
                       className="img-fluid"
-                      style={{ borderRadius: '1rem 0 0 1rem' }}
+                      style={{
+                        width: '100%',     // Adjust this value to your desired width
+                        height: 'auto',    // Adjust this value to your desired height
+                        borderRadius: '1rem 0 0 1rem'
+                      }}
                     />
                   </div>
                   <div className="col-md-6 col-lg-7 d-flex align-items-center">
